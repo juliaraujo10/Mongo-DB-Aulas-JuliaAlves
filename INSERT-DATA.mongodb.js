@@ -8,7 +8,7 @@ const collection = 'libri-collection';
 use (database);
 
 //INSERE UM DOCUMENTO DE DADO DE LIVRO NA COLLECTION
-db ['libri=collection'].insertOne(
+db ['libri-collection'].insertOne(
     {
         "codigo":"1",
         "titulo": "As Cavernas de Aço",
